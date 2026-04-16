@@ -1,0 +1,111 @@
+.bkgd-img {
+  background-image: url(../multimedia/small-background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bkgd-shadow {
+  background-color: #000c;
+}
+* {
+  font-family: roboto;
+}
+
+header {
+  /* background-color: lightgoldenrodyellow; */
+  padding: 10px;
+  position: absolute;
+  width: 100%;
+}
+
+header img {
+  /* background-color: rgb(29, 134, 134); */
+  width: 90px;
+}
+
+.hero {
+  /* background-color: lightgreen; */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+h1 {
+  /* background-color: azure; */
+  font-size: 28px;
+  font-weight: 900;
+  font-family: poppins;
+  padding: 4px;
+}
+
+.hero p {
+  /* background-color: lightcoral; */
+  font-size: 18px;
+  padding: 8px;
+  text-align: center;
+}
+
+.hero form {
+  background-color: #fff;
+  margin-top: 24px;
+  min-width: 300px;
+  padding: 24px 16px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: #000;
+}
+
+.hero label {
+  font-weight: 900;
+}
+
+.hero input,
+textarea {
+  /* background-color: lightcyan; */
+  width: 100%;
+  padding: 8px;
+  border-radius: 0 0 8px 8px;
+  border-bottom: 3px solid #ffc107;
+  margin-top: 8px;
+  font-weight: 600;
+}
+
+.hero input::placeholder,
+textarea::placeholder {
+  color: #a0a0a0;
+}
+
+.hero input:focus,
+textarea:focus {
+  border-radius: 8px;
+  outline-color: #ffc107;
+}
+
+.hero button {
+  background-color: #ffc107;
+  color: #fff;
+  font-weight: 600;
+  padding: 12px 24px;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 0px 0px 9px 3px #0002;
+}
+
+.ws-icon {
+  /* background-color: lightcoral; */
+  width: 50px;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  transition: scale 0.3s ease-in-out;
+}
+
+.ws-icon:hover {
+  scale: 1.1;
+}
